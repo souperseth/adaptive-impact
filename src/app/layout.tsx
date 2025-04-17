@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { kumbhSans } from "./ui/fonts";
 import NavBar from "./Navbar";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: "Adaptive Impact",
