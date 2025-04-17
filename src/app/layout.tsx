@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   description: "Adaptive Impact",
 };
 
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      "givebutter-widget": any;
+    }
+  }
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,6 +29,7 @@ export default function RootLayout({
       <body className={kumbhSans.className}>
         <NavBar/>
         {children}
+        {/* @ts-ignore */}
         <givebutter-widget id="L4DzEL"></givebutter-widget>
       </body>
     </html>
