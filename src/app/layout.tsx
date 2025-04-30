@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import styles from "./globals.css";
 import { kumbhSans } from "./ui/fonts";
 import NavBar from "./Navbar";
 import { Analytics } from "@vercel/analytics/react";
@@ -27,7 +27,7 @@ export default function RootLayout({
       <head>
         <script async src="https://widgets.givebutter.com/latest.umd.cjs?acct=lWUgvX8EzEFcXOXe&p=other"/>
       </head>
-      <body className={kumbhSans.className}>
+      <body className={styles.background}>
         <NavBar/>
         {children}
         {/* @ts-ignore */}
