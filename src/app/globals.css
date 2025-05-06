@@ -56,13 +56,3 @@ hr {
   margin-right: 50px;
   opacity: 50%;
 }
-
-.background {
-  position:fixed;
-  background-image: url('/sunset.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
