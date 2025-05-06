@@ -36,6 +36,7 @@
 .navbar {
     /* background-color: var(--primary); */
     /* text color */
+    /* display: flex; */
     color: var(--foreground);
     position: sticky;
     /* height: 20px; */
