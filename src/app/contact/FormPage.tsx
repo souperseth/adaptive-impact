@@ -6,7 +6,7 @@ export default function FormPage() {
 	return (
         <div className={styles.pageWrapper}>
           <div className={styles.pageHeadingWrapper}>
-            <p className={styles.text}>Any Question or remarks? Just write us a message</p>
+            <p className={styles.text}>Write us a message to inquire about an adaptive experience!</p>
           </div>
           <div className={styles.formContainer}>
             <DetailsBar/>

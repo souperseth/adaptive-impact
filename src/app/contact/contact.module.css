@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: whitesmoke;
-  padding-bottom: 50px;
+  /* background-color: whitesmoke; */
+  /* padding-bottom: 50px; */
 }
 
 .pageHeadingWrapper {
@@ -18,9 +18,11 @@
   background-color: #fff;
   padding: 5px;
   border-radius: 5px;
-  height: 70vh;
-  @media (max-width: 768px) {
-    width: 90%;
+  height: 60vh;
+  @media (max-width: 800px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -30,10 +32,8 @@
   text-align: center;
 }
 
-
-
 .detailsBarWrapper {
-  background-color: rgb(8, 8, 63);
+  background-color: whitesmoke;
   border-radius: 7px;
   position: relative;
   padding: 30px;
@@ -43,9 +43,9 @@
   height: 100%;
   width: 40%;
   padding-bottom: 100px;
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     padding-bottom: 80px;
-    grid-row: 2;
+    width: 90%;
   }
 }
 
@@ -57,49 +57,26 @@
 
 .textOne {
   text-align: center;
-  color: #fff;
   font-size: 18px;
   font-weight: bold;
 }
 
 .textTwo {
   text-align: center;
-  color: #fff;
   font-size: 12px;
   line-height: 18px;
 }
 
-.bigCircle {
-  height: 50px;
-  margin-top: 30px;
-  width: 50px;
-  background-color: rgb(100, 21, 173);
-  border-radius: 100%;
-  z-index: 22;
-  margin-left: 10px;
-}
-
-.smallCircle {
-  position: absolute;
-  margin-left: 10px;
-  background-color: rgb(252, 113, 137);
-  border-radius: 100%;
-  height: 30px;
-  width: 30px;
-}
-
 .contactsWrapper {
   display: flex;
-  width: 200px;
-  height: 10px;  
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
   margin-top: 50px;
   cursor: pointer;
-  text-decoration: none;
 }
 
 .contactText {
-  color: #fff;
-
   font-size: 15px;
   margin-left: 10px;
 }
@@ -116,20 +93,13 @@
 }
 
 .socialIconWrapper {
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   &:hover {
-    background-color: rgb(252, 113, 137);
+    background-color: #FFBF00;
   }
 }
-
-
-
-
 
 .inputSideWrapper {
   height: auto;
@@ -152,7 +122,7 @@
   width: 100%;
   font-size: 15px;
   padding: 8px;
-  border-bottom: 1px solid rgb(100, 21, 173);
+  border-bottom: 1px solid rgb(132, 107, 245);
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
@@ -164,7 +134,7 @@
   color: #333;
   font-size: 15px;
   padding: 10px;
-  border-bottom: 1px solid rgb(100, 21, 173);
+  border-bottom: 1px solid rgb(132, 107, 245);
   border-left: 1px solid transparent;
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
@@ -176,7 +146,7 @@
   bottom: 20px;
   right: 20px;
   padding: 10px;
-  background-color: rgb(8, 8, 63);
+  background-color: rgb(132, 107, 245);
   color: #fff;
   border: none;
   border-radius: 5px;

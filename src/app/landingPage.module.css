@@ -1,9 +1,107 @@
 .background {
-    position:fixed;
-    background-image: url('/sunset.jpg');
-    background-repeat: no-repeat;
+    /* position:fixed; */
+    background-image: url('/dana-flying-16-9-2.jpeg');
+    /* background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
-    width: 100%;
+    background-size: cover; */
+    /* width: 100%; */
+    /* height: 100%; */
+
+
+        /* Add the blur effect */
+        /* filter: blur(8px);
+        -webkit-filter: blur(8px); */
+      
+        /* Full height */
+        /* height: 100%; */
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+}
+
+.landingPage {
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
     height: 100%;
+    background-image: url('/dana-flying-16-9-2.jpeg');
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px){
+    .landingPage {
+      flex-direction: column;
+    }
+}
+
+.photoBlurbs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 90%; */
+}
+
+.blurb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .blurb {
+      flex-direction: column;
+    }
+}
+
+.blurb2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px){
+    .blurb2 {
+      flex-direction: column-reverse;
+    }
+}
+
+.image {
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .image {
+      width: 100%;
+    }
+}
+
+.backgroundImage {
+    position: fixed;
+    width: 100%;
+}
+
+.donate {
+    /* width: 50%; */
+    background-color: #FFBF00;
+    width: 440px;
+    border-radius: 20px;
+}
+
+.heading {
+    color: white;
+    width: 50%;
+}
+
+@media screen and (max-width: 800px){
+    .heading {
+      width: 90%;
+    }
 }

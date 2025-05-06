@@ -8,7 +8,8 @@ export const profileData = [
             "Her message is simple but fierce: “When you can no longer walk, learn to fly.”",
             "With courage, humor, and an unyielding drive to live life to the fullest, Dana co-created Adaptive Impact to help others with mobility limitations reclaim movement, adventure, and joy — not despite the obstacles, but through them.",
         ],
-        image: "/dana.jpg"
+        image: "/dana.jpg",
+        key: 0
     },
     {
         name: "Iva Velkovska",
@@ -18,7 +19,8 @@ export const profileData = [
             "Iva met Dana three years ago, and just a year into knowing her, she witnessed Dana receive a life-altering neurodegenerative diagnosis. As Dana’s physical abilities began to shift, her adventurous spirit never faded. That resilience became the spark for Iva to evolve her mission—transforming Generation Impact into Adaptive Impact, a new chapter co-founded with Dana.",
             "Motivated by Dana’s journey, Iva turned her focus toward creating transformative experiences for individuals living with mobility challenges. Today, she brings her expertise and heart to helping provide adaptive experiences and raise awareness of these options  that foster empowerment, connection, and joy. By combining a deep understanding of the unique challenges faced by the adaptive community with a lifelong commitment to social impact, Iva is dedicated to helping turn the “impossible” into possible."
         ],
-        image: "/iva.jpg"
+        image: "/iva.jpg",
+        key: 1,
     },
     {
         name: "Bobby Brown",
@@ -28,7 +30,8 @@ export const profileData = [
             "The two learned to paraglide together, chasing freedom in the sky. When Dana could no longer launch or land solo, Bobby adapted their process with love and creativity, becoming her liftoff and landing gear.",
             "Now an Advanced Tandem Instructor, Bobby enables Dana and others in the adaptive community to experience the joy of flight. With steady presence and deep empathy, he’s helped lift Adaptive Impact off the ground — and keeps it soaring."
         ],
-        image: "/bobby.jpg"
+        image: "/bobby.jpg",
+        key: 2,
     },
     {
         name: "Diana Catalina Beltran Gonzalez",
@@ -39,7 +42,8 @@ export const profileData = [
             "Meeting Iva and Dana added a new perspective — a reminder of the quiet strength in resilience and the importance of human connection.",
             "When Adaptive Impact began to take shape, Catalina saw it as a natural extension of her values. She contributes with strategy, presence, and compassion. She believes that when we design for movement with compassion, we create pathways not just to places, but to connection, community, and belonging."
         ],
-        image: "/catalina.jpg"
+        image: "/catalina.jpg",
+        key: 3
     },
 ]
 

@@ -45,6 +45,8 @@ h2 {
 
 h3 {
   font-size: large;
+  /* color: oklch(42.4% 0.199 265.638); */
+  color: rgb(132, 107, 245);
 }
 
 hr {
