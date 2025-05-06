@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import styles from './globals.css';
 import NavBar from "./Navbar";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -25,12 +26,11 @@ export default function RootLayout({
       <head>
         <script async src="https://widgets.givebutter.com/latest.umd.cjs?acct=lWUgvX8EzEFcXOXe&p=other"/>
       </head>
-      <body>
+      <body className={styles.background}>
         <NavBar/>
         {children}
         {/* @ts-ignore */}
         <givebutter-widget id="L4DzEL"></givebutter-widget>
-        <Analytics />
       </body>
     </html>
   );
