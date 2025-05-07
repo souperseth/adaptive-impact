@@ -18,7 +18,7 @@ const Story = ()=> {
 					</div>
 					<h2>Founders</h2>
 					{profileData.map((profile) => (
-						<ProfileCard name={profile.name} position={profile.position} bio={profile.bio} key={profile.name} image={profile.image} imageFirst={profile.key}/>
+						<ProfileCard name={profile.name} position={profile.position} bio={profile.bio} key={profile.name} image={profile.image} insta={profile.insta} imageFirst={profile.key}/>
 					))}
 				</div>
 			</div>

@@ -9,6 +9,7 @@ export const profileData = [
             "With courage, humor, and an unyielding drive to live life to the fullest, Dana co-created Adaptive Impact to help others with mobility limitations reclaim movement, adventure, and joy — not despite the obstacles, but through them.",
         ],
         image: "/dana.jpg",
+        insta: "https://www.instagram.com/imkickingthebucketlist/",
         key: 0
     },
     {
@@ -20,6 +21,7 @@ export const profileData = [
             "Motivated by Dana’s journey, Iva turned her focus toward creating transformative experiences for individuals living with mobility challenges. Today, she brings her expertise and heart to helping provide adaptive experiences and raise awareness of these options  that foster empowerment, connection, and joy. By combining a deep understanding of the unique challenges faced by the adaptive community with a lifelong commitment to social impact, Iva is dedicated to helping turn the “impossible” into possible."
         ],
         image: "/iva.jpg",
+        insta: "https://www.instagram.com/iva_impact/",
         key: 1,
     },
     {

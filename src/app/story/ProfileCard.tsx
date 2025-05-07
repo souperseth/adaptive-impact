@@ -1,7 +1,8 @@
 import styles from "./profile-card.module.css";
 import Image from "next/image";
+import { Instagram } from '@mui/icons-material';
 
-const ProfileCard = ({name, position, bio, image, imageFirst}: {name:string, position: string, bio: string[], image: string, imageFirst: number}) => {
+const ProfileCard = ({name, position, bio, image, imageFirst, insta}: {name:string, position: string, bio: string[], image: string, imageFirst: number, insta?: string}) => {
     const paragraphs = [];
     for (let i = 0; i < bio.length; i++) {
         paragraphs.push(<div className={styles.bio} key={i}>{bio[i]}</div>);
@@ -10,8 +11,15 @@ const ProfileCard = ({name, position, bio, image, imageFirst}: {name:string, pos
     return (
         <div>
             <div className={styles.profileHeader}>
-                <h1>{name}</h1>
+                <h1>{name}
+                    {insta ?
+                        <a className={styles.socialIconWrapper} href={insta} target="_blank">
+                            <Instagram className={styles.icon}/>
+                        </a> : ''
+                    }
+                </h1>
                 <h3>{position}</h3>
+
             </div>
 
             <div className={styles.profileContainer}>

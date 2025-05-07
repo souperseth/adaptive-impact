@@ -62,3 +62,14 @@ display: flex;
   margin-top: 20px;
   /* padding: 20px; */
 }
+
+.socialIconWrapper {
+  margin-left: 10px;
+}
+
+.icon {
+  border-radius: 6px;
+  &:hover {
+    background-color: #FFBF00;
+  }
+}
